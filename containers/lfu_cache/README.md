@@ -33,6 +33,6 @@ graph LR
 N1[4]
 N2[john]
 N1 --> N2
-N2 <-- N1
+N2 --> N1
 ```
 In that way new *key* append to **rank-1**, then with each use *key* migrate to **rank-(current + 1)**. During migration key deleted from previos **rank**, if after delete previous **rank** become empty, they removed from list with ranks.
