@@ -14,7 +14,7 @@ For O(1) random access **delete/insert** operations each node additionally store
 | rank | pointer         |
 |------|-----------------|
 | 1    | address(rank-1) |
-| 2    | address(rank-1) |
+| 2    | address(rank-2) |
 | 4    | address(rank-4) |
 | ...  | ...             |
 | N    | address(rank-N) |
